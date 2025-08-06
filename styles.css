@@ -948,6 +948,12 @@ body {
     .mobile-welcome {
         display: none !important;
     }
+    
+    @media (max-width: 1024px) {
+        .mobile-welcome {
+            display: block !important;
+        }
+    }
 }
 
 @media (max-width: 1024px) {
@@ -1077,7 +1083,7 @@ body {
         order: -2;
         text-align: center;
         margin-bottom: 2rem;
-        display: block;
+        display: block !important;
     }
     
     .mobile-welcome .hero-title {
@@ -1279,7 +1285,7 @@ body {
         order: -3;
         text-align: center;
         margin-bottom: 1.5rem;
-        display: block;
+        display: block !important;
     }
     
     .mobile-welcome .hero-title {
