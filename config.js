@@ -22,120 +22,130 @@ const PRODUCTS_DATABASE = [
     // Para alterar imagens: substitua as URLs abaixo pelas imagens desejadas
     {
         id: 1,
-        name: "Caneca Naruto Hokage",
+        name: "Caneca do luffy",
         category: "canecas",
         price: 29.90,
-        description: "Caneca exclusiva do Naruto com design do símbolo Hokage. Material cerâmica de alta qualidade.",
+        description: "Caneca do Monkey D. Luffy com seu chapéu de palha icônico.",
         icon: "🍜",
-        imageUrl: "images/arena-geek-logo.png", // SUBSTITUA pela URL da imagem
+        imageUrl: "images/canecaluffy.png", // SUBSTITUA pela URL da imagem
         featured: true
     },
     {
         id: 2,
-        name: "Caneca Dragon Ball Z",
+        name: "Caneca dandadan",
         category: "canecas",
         price: 32.90,
-        description: "Caneca temática Dragon Ball Z com as esferas do dragão. Perfeita para fãs!",
+        description: "Caneca temática de dandadan. Perfeita para fãs!",
         icon: "🐉",
-        imageUrl: "https://via.placeholder.com/300x300/FF6B35/FFFFFF?text=Caneca+DBZ", // SUBSTITUA pela URL da imagem
+        imageUrl: "images/canecadandadan.png", // SUBSTITUA pela URL da imagem
         featured: false
     },
     {
         id: 3,
-        name: "Caneca One Piece Luffy",
+        name: "Caneca de gravity falls",
         category: "canecas",
         price: 28.90,
-        description: "Caneca do Monkey D. Luffy com seu chapéu de palha icônico.",
+        description: "Caneca de gravity falls.",
         icon: "👒",
-        imageUrl: "https://via.placeholder.com/300x300/FF6B35/FFFFFF?text=Caneca+Luffy", // SUBSTITUA pela URL da imagem
+        imageUrl: "images/canecagravity.png", // SUBSTITUA pela URL da imagem
         featured: true
-    },
-    {
-        id: 4,
-        name: "Caneca Attack on Titan",
-        category: "canecas",
-        price: 31.90,
-        description: "Caneca com o símbolo das Tropas de Exploração de Attack on Titan.",
-        icon: "⚔️",
-        imageUrl: "https://via.placeholder.com/300x300/FF6B35/FFFFFF?text=Caneca+AOT", // SUBSTITUA pela URL da imagem
-        featured: false
     },
 
     // ACTION FIGURES
     {
-        id: 5,
-        name: "Action Figure Goku SSJ",
+        id: 4,
+        name: "Luffy Gear 5",
         category: "action-figures",
         price: 89.90,
-        description: "Figure articulado do Goku Super Saiyajin com acessórios. Altura: 15cm.",
+        description: " Luffy Gear 5 Ação Sol Deus Nika PVC Estatueta Estátua Modelo Colecionável-17 cm",
         icon: "👨‍🦲",
-        imageUrl: "https://via.placeholder.com/300x300/4A90E2/FFFFFF?text=Goku+SSJ", // SUBSTITUA pela URL da imagem
+        imageUrl: "images/luffy.png", // SUBSTITUA pela URL da imagem
+        featured: true
+    },
+    {
+        id: 5,
+        name: "Zoro",
+        category: "action-figures",
+        price: 95.90,
+        description: "Figure do zoro de One Piece.",
+        icon: "🧘‍♂️",
+        imageUrl: "images/zoro.png", // SUBSTITUA pela URL da imagem
         featured: true
     },
     {
         id: 6,
-        name: "Action Figure Naruto Sage Mode",
-        category: "action-figures",
-        price: 95.90,
-        description: "Figure do Naruto no Modo Sábio dos Sapos com base especial.",
-        icon: "🧘‍♂️",
-        imageUrl: "https://via.placeholder.com/300x300/4A90E2/FFFFFF?text=Naruto+Sage", // SUBSTITUA pela URL da imagem
-        featured: true
-    },
-    {
-        id: 7,
-        name: "Action Figure Ichigo Bankai",
+        name: "Naruto Criança",
         category: "action-figures",
         price: 110.90,
         description: "Figure do Ichigo em modo Bankai com espada Tensa Zangetsu.",
         icon: "⚡",
-        imageUrl: "https://via.placeholder.com/300x300/4A90E2/FFFFFF?text=Ichigo+Bankai", // SUBSTITUA pela URL da imagem
+        imageUrl: "images/narutokid.png", // SUBSTITUA pela URL da imagem
         featured: false
     },
     {
-        id: 8,
-        name: "Action Figure All Might",
+        id: 7,
+        name: "Momo",
         category: "action-figures",
         price: 87.90,
-        description: "Figure do All Might de My Hero Academia em pose heroica.",
+        description: "Figure de Dandadan.",
         icon: "💪",
-        imageUrl: "https://via.placeholder.com/300x300/4A90E2/FFFFFF?text=All+Might", // SUBSTITUA pela URL da imagem
+        imageUrl: "images/momo.png", // SUBSTITUA pela URL da imagem
+        featured: true
+    },
+     {
+        id: 8,
+        name: "okarun",
+        category: "action-figures",
+        price: 87.90,
+        description: "Figure de Dandadan.",
+        icon: "💪",
+        imageUrl: "images/okarun.png", // SUBSTITUA pela URL da imagem
+        featured: true
+    },
+     {
+        id: 9,
+        name: "goku",
+        category: "action-figures",
+        price: 87.90,
+        description: "Figure do Dragon Ball.",
+        icon: "💪",
+        imageUrl: "images/gokukid.png", // SUBSTITUA pela URL da imagem
         featured: true
     },
 
-    // ROUPAS
+    // Exclusivos
     {
-        id: 9,
-        name: "Camiseta Akatsuki",
+        id: 10,
+        name: "quadro Gravity Falls",
         category: "roupas",
         price: 49.90,
         description: "Camiseta preta com o símbolo da organização Akatsuki de Naruto.",
         icon: "👕",
-        imageUrl: "https://via.placeholder.com/300x300/E74C3C/FFFFFF?text=Camiseta+Akatsuki", // SUBSTITUA pela URL da imagem
+        imageUrl: "images/quadrogra.png", // SUBSTITUA pela URL da imagem
         featured: true
     },
     {
-        id: 10,
-        name: "Moletom Konoha",
+        id: 11,
+        name: "Diario 3(Gravity Falls)",
         category: "roupas",
         price: 89.90,
-        description: "Moletom com capuz com o símbolo da Vila da Folha.",
+        description: "diario da serie.",
         icon: "🧥",
-        imageUrl: "https://via.placeholder.com/300x300/E74C3C/FFFFFF?text=Moletom+Konoha", // SUBSTITUA pela URL da imagem
+        imageUrl: "images/diario3.png", // SUBSTITUA pela URL da imagem
         featured: false
     },
     {
-        id: 11,
-        name: "Camiseta Dragon Ball",
+        id: 12,
+        name: "diario exclusivo de Bill(Gravity Falls)",
         category: "roupas",
         price: 45.90,
         description: "Camiseta com estampa das esferas do dragão brilhantes.",
         icon: "✨",
-        imageUrl: "https://via.placeholder.com/300x300/E74C3C/FFFFFF?text=Camiseta+Dragon+Ball", // SUBSTITUA pela URL da imagem
+        imageUrl: "images/diario1.png", // SUBSTITUA pela URL da imagem
         featured: true
     },
     {
-        id: 12,
+        id: 13,
         name: "Jaqueta Survey Corps",
         category: "roupas",
         price: 129.90,
@@ -147,17 +157,17 @@ const PRODUCTS_DATABASE = [
 
     // ACESSÓRIOS
     {
-        id: 13,
-        name: "Chaveiro Pokébola",
+        id: 14,
+        name: "pulseira Pokemon",
         category: "acessorios",
         price: 15.90,
         description: "Chaveiro da Pokébola que abre e fecha, com LED interno.",
         icon: "🔴",
-        imageUrl: "https://via.placeholder.com/300x300/9B59B6/FFFFFF?text=Chaveiro+Pokebola", // SUBSTITUA pela URL da imagem
+        imageUrl: "images/pulpoke.png", // SUBSTITUA pela URL da imagem
         featured: false
     },
     {
-        id: 14,
+        id: 15,
         name: "Pôster Attack on Titan",
         category: "acessorios",
         price: 25.90,
@@ -167,7 +177,7 @@ const PRODUCTS_DATABASE = [
         featured: true
     },
     {
-        id: 15,
+        id: 16,
         name: "Anel Akatsuki",
         category: "acessorios",
         price: 35.90,
@@ -177,7 +187,7 @@ const PRODUCTS_DATABASE = [
         featured: false
     },
     {
-        id: 16,
+        id: 17,
         name: "Mochila Pikachu",
         category: "acessorios",
         price: 79.90,
@@ -187,7 +197,7 @@ const PRODUCTS_DATABASE = [
         featured: true
     },
     {
-        id: 17,
+        id: 18,
         name: "Mousepad Anime",
         category: "acessorios",
         price: 22.90,
@@ -197,7 +207,7 @@ const PRODUCTS_DATABASE = [
         featured: false
     },
     {
-        id: 18,
+        id: 19,
         name: "Adesivos Anime Pack",
         category: "acessorios",
         price: 12.90,
